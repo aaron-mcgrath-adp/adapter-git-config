@@ -17,9 +17,12 @@
     <Logger name="net" level="WARN"/>
     <Logger name="jndi" level="WARN"/>
     <Logger name="java.sql.DatabaseMetadata" level="WARN"/>
+    <Logger name="org.reflections" level="ERROR"/>
     <Logger name="org.eclipse.jetty" level="WARN"/>
+    <Logger name="org.eclipse.jetty.annotations.AnnotationParser" level="ERROR"/>
     <Logger name="org.hibernate.cache" level="WARN"/>
     <Logger name="org.springframework.aop.framework.CglibAopProxy" level="ERROR"/>
+    <Logger name="org.springframework.context.support.PropertySourcesPlaceholderConfigurer" level="ERROR"/>
     <Logger name="org.hibernate.cache.EhCacheProvider" level="ERROR"/>
     <Logger name="com.mchange.v2.resourcepool.BasicResourcePool" level="ERROR"/>
     <Logger name="com.sun.jersey" level="ERROR"/>
@@ -30,6 +33,7 @@
     <Logger name="com.adaptris.transform.ff.Handler" level="INFO"/>
     <Logger name="com.adaptris.core.jms.MetadataHandler" level="DEBUG"/>
     <Logger name="com.adaptris.adaptergui" level="WARN"/>
+    <Logger name="com.adaptris.configapi" level="INFO"/>
     <Logger name="com.adaptris.core.marshaller.xstream" level="WARN"/>
     <Logger name="com.adaptris.adaptergui.util.ObjectConverter" level="FATAL"/>
     <Logger name="com.adaptris.adaptergui.util.ClassUtils" level="FATAL"/>
